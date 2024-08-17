@@ -8,50 +8,63 @@ html {
 
 .container {
   max-width: 1080px;
-  margin: 20px 50px 20px 50px;
-  background-color: #1f1e1e;
+  margin: 50px;
+  background-color: #1e1e1e;
   padding: 50px;
-  border-radius: 30px;
 
   /* Centralizar o container no meio da página */
   position: relative;
   margin: 50px auto;
 }
 
-.featured-image {
+.featured-image,
+.book,
+.main-title {
   text-align: center;
 }
 
+.summary {
+  margin-bottom: 0px;
+}
+
 .header {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   height: 80px;
 }
 
 .img-book {
-  height: 50%;
-  width: 50%;
-  border-radius: 30px;
+  height: 40%;
+  width: 40%;
+}
+
+.main-img,
+.img-book,
+.container,
+.top-quotes {
+  border-radius: 20px;
 }
 
 .main-img {
-  border-radius: 30px;
   height: 80%;
   width: 80%;
 }
 
 .book {
-  text-align: center;
-  padding: 0% 20% 0% 20%;
+  padding-bottom: 40px;
   border-top: 1px dashed #ddd;
   border-bottom: 1px dashed #ddd;
 }
 
 .main-title {
   width: 100%;
-  text-align: center;
   font-size: 50px;
-  text-decoration: underline;
   margin: 0;
+}
+
+.main-title,
+.book-title,
+.quotes-title {
+  text-decoration: underline;
 }
 
 .main-paragraph {
@@ -62,10 +75,7 @@ html {
   font-style: italic;
 }
 
-.book-title,
-.quotes-title {
-  text-decoration: underline;
-  margin-top: 100px;
+.book-title {
   font-size: 40px;
 }
 
@@ -76,13 +86,20 @@ html {
   margin-top: 0px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .top-quotes {
   color: #1f1e1e;
   text-align: center;
   background-color: #ddd;
   padding: 20px;
   margin-top: 80px;
-  border-radius: 30px;
 }
 
 .quotes {
